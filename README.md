@@ -1,2 +1,2 @@
 # first-FrontEnd-Project
-front end, python
+front end, basic javascript
