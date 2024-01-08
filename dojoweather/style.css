@@ -1,0 +1,168 @@
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* start of header */
+
+.header {
+    background-color: rgb(123, 231, 231);
+    width: 1000px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.dojo-weather {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    margin-right: 30px;
+    font-size: large;
+}
+
+.city-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+/* end of header */
+/* start of secondary header */
+
+.seconday-header {
+    display: flex;
+}
+
+.options {
+    display: flex;
+    width: 1000px;
+    justify-content: flex-end;
+    margin-top:-70px;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.sanjose {
+    margin-left: 90px;
+    font-family: sans-serif;
+}
+
+.optionselect {
+    margin: 15px;
+}
+
+.hr {
+    width: 1000px;
+    margin-left: -1px;
+}
+
+/* end of secondary header */
+/*start of weather boxes*/
+.boxes {
+    display: flex;
+}
+
+.weather-box1, .weather-box2, .weather-box3, .weather-box4 {
+    background-color: rgb(226, 223, 223);
+    display: block;
+    height: 400px;
+    width: 230px;
+    margin: 10px;
+}
+
+.img-1, .img-2, .img-3, .img-4 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.tomorrow {
+    margin-left: 15px;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+.saturday {
+    margin-left: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.today, .friday {
+    padding: 20px;
+    font-family: sans-serif;
+    margin-left: 50px;
+}
+
+.some-rain, .some-sun, .some-clouds, .some-sunfour {
+    margin-left: 75px;
+    font-size: large;
+}
+
+.boxone-degree, .boxtwo-degree, .boxthree-degree, .boxfour-degree {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -20px;
+    font-size: 30px;
+}
+
+.high {
+    color: red;
+    margin-top: -5px;
+}
+.low {
+    color: blue;
+    margin-top: -5px;  
+}
+/*end of weather boxes*/
+/*start of cookies */
+
+#cookies {
+    border: solid black;
+    height: 180px;
+    width: 975px;
+    margin-left: 10px;
+    position: fixed;
+}
+
+.cookiestime {
+margin-left: 210px;
+}
+
+.cookie-paragraph {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.cookie-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.accept-button {
+    background-color: rgb(110, 110, 219);
+    font-family: sans-serif;
+    box-shadow: 3px 3px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.readmore {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+/*end of cookies */
